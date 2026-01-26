@@ -24,9 +24,14 @@ export const CTA: React.FC = () => {
             <p className="text-xs text-gray-500">Pagamento único. Acesso imediato à plataforma.</p>
           </div>
 
-          <button className="w-full py-5 bg-white text-black font-semibold tracking-widest hover:bg-gray-200 transition-all rounded-sm uppercase">
+          <a 
+            href="https://pay.kiwify.com.br/PKZGez5"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full py-5 bg-white text-black font-semibold tracking-widest hover:bg-gray-200 transition-all rounded-sm uppercase text-center"
+          >
             GARANTIR MEU ACESSO AGORA
-          </button>
+          </a>
           
           <div className="flex justify-center gap-6 pt-4 text-xs text-gray-500 uppercase tracking-widest font-medium">
              <span>7 dias de garantia</span>
